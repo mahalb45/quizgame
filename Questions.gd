@@ -16,7 +16,23 @@ var questions = {
 	12:["What does the acronym for BMW stand for?", "Bavarian Motor Works (Bayerische Motoren Werke)", "Barbarian Motor WORKS", "Bolocks Motor Works", "Baymans Motor Works (Bayerische Motoren Werke)", "Bavarian Motor Works (Bayerische Motoren Werke)", null],
 	13:["Volvo was founded in what country?", "Sweden", "Portogese", "England", "Denmark", "Sweden", null],
 	14:["Which English car company was bought by BMW in 28 July 1998", "Jaguar", "Mini Cooper", "Aston Martin", "Rolls Royce", "Rolls Royce", null],
-	15:["Debuting in September 1966, what Chevrolet pony car was designed to be a competing model to the Ford Mustang?", "Chevrolet Camaro", "Chevrolet Monoco", "Chevrolet Camry", "Chevrolet Chevy", "Chevrolet Camaro", null]
+	15:["Debuting in September 1966, what Chevrolet pony car was designed to be a competing model to the Ford Mustang?", "Chevrolet Camaro", "Chevrolet Monoco", "Chevrolet Camry", "Chevrolet Chevy", "Chevrolet Camaro", null],
+	16:["What does the acronym “SUV” stand for?", "Sports Utility Vehicle", "Super Urban Vehicle", "Sports Urban Vehicle", "Sports Utilitarian Vehicle", "Sports Utility Vehicle", null],
+	17:["What does MPG mean in terms of fuel?", "Meters per gallon", "Miles per gallon", "Miles post gallon", "Meters post gallon", "Miles per gallon", null],
+	18:["What car brand uses the slogan “The Ultimate Driving Machine”?", "BMW", "Rolls Royce", "Doodge", "Mercedes", "BMW", null],
+	19:["What is the top speed of the Bugatti Chiron?", "261 mph (420 km/h)", "217 mph (350 km/h)", "318 mph (512 km/h)", "305 mph (491 km/h)", "261 mph (420 km/h)", null],
+	20:["Which luxury car manufacturer produces the “A3,” “A4,” and “A6” models?", "Jaguar", "BMW", "Porsche", "Audi", "Audi", null],
+	21:["What is the name of the car model famously associated with James Bond?", "Bentley Bentayga", "Ford Mostang", "Porsche Carrera GT", "Aston Martin DB5", "Aston Martin DB5", null],
+	22:["What is the luxury car division of Toyota called?", "Luxiom", "Infinity", "Lexus", "Brabus", "Lexus", null],
+	23:["What is the name of the luxury car manufacturer known for its “Phantom,” “Ghost,” and “Wraith” models?", "Porsche", "Mercedes Benz", "RollS Royce", "Bentley", "RollS Royce", null],
+	24:["What is the name of the luxury car manufacturer known for its “Ghibli,” “Quattroporte,” and “Levante” models?", "Jaguar", "Alfa Romeo", "Citroen", "Maserati", "Maserati", null],
+	25:["Which Italian car brand is known for its ultra-luxurious and exclusive hypercars, such as the Huayra and Zonda?", "Koenigsegg", "Pagani", "Mclarean", "Bugatti", "Pagani", null],
+	26:["Which country is home to the famous Nürburgring racetrack?", "Italy", "Sweden", "Germany", "Denmark", "Germany", null],
+	27:["What does RPM stand for in the context of a car’s engine?", "Rounds Per Minute", "Rotations Per Minute", "Relaxation Per Minute", "Revolutions Per Minute", "Revolutions Per Minute", null],
+	28:["What is the name of the famous French endurance race that lasts 24 hours?", "24 Hours of Nurburgring", "24 Hours of Le Mans", "24 Hours of Le Rolls", "24 Hours of Rolex Ring", "24 Hours of Le Mans", null],
+	29:["What does ABS stand for in car technology?", "Anti braking System", "After Brake System", "Anti-lock Braking System", "Anti-slip Braking System", "Anti-lock Braking System", null],
+	30:["What car company is known for the Twin terbo system?", "Nissan", "Doodge", "BMW", "Porsche", "Nissan", null],
+	
 }
 
 var available_questions = questions.keys()
