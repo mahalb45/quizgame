@@ -32,6 +32,11 @@ var questions = {
 	28:["What is the name of the famous French endurance race that lasts 24 hours?", "24 Hours of Nurburgring", "24 Hours of Le Mans", "24 Hours of Le Rolls", "24 Hours of Rolex Ring", "24 Hours of Le Mans", null],
 	29:["What does ABS stand for in car technology?", "Anti braking System", "After Brake System", "Anti-lock Braking System", "Anti-slip Braking System", "Anti-lock Braking System", null],
 	30:["What car company is known for the Twin terbo system?", "Nissan", "Doodge", "BMW", "Porsche", "Nissan", null],
+	31:["Which car manufachurer is known for the nismo badge?", "Mansory", "Rolls Royce", "Nissan", "Ford", "Nissan", null],
+	32:["What is Mansory to the car industry?", " luxury car modifier", "Luxury car reseller", "wheel and tire maker", "Car recoloring","luxury car modifier", null],
+	33:["What is the most popular motorsport?", "Moto GP", "WEC Endurane Race", "Formula 1", "Nascar", "Formula 1", null],
+	34:["Do you like electric cars?", "Never in a million years", "yes", "Maybe", "No", "Never in a million years", preload("res://58902069-gun-pointed-at-you.jpg")],
+	35:["What is Honda's Supercar?", "Honda rcs 34", "Honda GT", "Honda NSX", "Honda 3", "Honda NSX", preload("res://nsx_type_s_01.jpg")],
 	
 }
 
