@@ -41,7 +41,7 @@ var questions = {
 	37:["How much did the Nurburgring cost to build?", "$30 Million", "$14.1 Million", "$40 Million", "$100 Million", "$40 Million", preload("res://Manthey Grello Porsche 911 GT3 R (992) Leading Schnitzelalm Mercedes-AMG GT3 on the Nürburgrin...jpg")],
 	38:["What does DRS stand for?", "Doodge Rambo System", "Drag Reduction System", "Drag Reposetry Sysytem", "Dope Rotational Speed", "Drag Reduction System", null],
 	39:["Which driver has won the most F1 championships?", "Max Verstrapen", "Senna", "Lewis Hamilton", "Charles Leclerc", "Lewis Hamilton", preload("res://hamilton.jpg")],
-	40:["Who is the greatest trio in the automotive industry?", "Jeremy Clarkson, Richard Hammond, James May", "Henry Ford, Enzo Ferrari, Ferruccio Lamborghini", "lewis Hamilton, Max verstrapen, Charles Leclerc", "Lamborghini, Ferrari, Mclaren", "Jeremy Clarkson, Richard Hammond, James May"],
+	40:["Who is the greatest trio in the automotive industry?", "Jeremy Clarkson, Richard Hammond, James May", "Henry Ford, Enzo Ferrari, Ferruccio Lamborghini", "lewis Hamilton, Max verstrapen, Charles Leclerc", "Lamborghini, Ferrari, Mclaren", "Jeremy Clarkson, Richard Hammond, James May", null],
 	
 }
 
