@@ -46,6 +46,7 @@ func next_question():
 	quiz_image.texture = question[6]
 	enable_buttons()
 	
+
 func disable_buttons():
 	button.set_disabled(true)
 	button_2.set_disabled(true)
@@ -57,7 +58,6 @@ func enable_buttons():
 	button_2.set_disabled(false)
 	button_3.set_disabled(false)
 	button_4.set_disabled(false)
-
 
 
 
