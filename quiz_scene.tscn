@@ -6,25 +6,19 @@
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i23kr"]
 bg_color = Color(0, 0.301961, 0.827451, 1)
-border_width_left = 175
-border_width_top = 75
-border_width_right = 290
 border_color = Color(0, 0.301961, 0.827451, 1)
+anti_aliasing = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vmcq"]
 bg_color = Color(0.8, 0, 0.160784, 1)
-border_width_left = 475
-border_width_top = 36
-border_width_bottom = 30
 border_color = Color(0.8, 0, 0.160784, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cc4n7"]
-border_width_top = 70
-border_width_right = 5
+bg_color = Color(0.675972, 0.510868, 0.181994, 1)
 border_color = Color(0.69398, 0.440507, 0.121572, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s383o"]
-bg_color = Color(0.349858, 0.598206, 1.92523e-07, 1)
+bg_color = Color(0, 0, 0, 1)
 border_color = Color(0.349858, 0.598206, 1.92523e-07, 1)
 
 [node name="QuizScene" type="CanvasLayer"]
@@ -34,10 +28,6 @@ script = ExtResource("1_4d3ne")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 16.0
-offset_top = 8.0
-offset_right = 16.0
-offset_bottom = 8.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 100
@@ -66,26 +56,35 @@ text = "====="
 
 [node name="GridContainer" type="GridContainer" parent="MarginContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
 size_flags_vertical = 8
 columns = 2
 
 [node name="Button" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(475, 100)
 layout_mode = 2
+size_flags_horizontal = 3
 theme_override_styles/normal = SubResource("StyleBoxFlat_i23kr")
 icon_alignment = 1
 
 [node name="Button2" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(475, 100)
 layout_mode = 2
+size_flags_horizontal = 3
 theme_override_styles/normal = SubResource("StyleBoxFlat_3vmcq")
 icon_alignment = 1
 
 [node name="Button3" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(475, 100)
 layout_mode = 2
+size_flags_horizontal = 3
 theme_override_styles/normal = SubResource("StyleBoxFlat_cc4n7")
 icon_alignment = 1
 
 [node name="Button4" type="Button" parent="MarginContainer/GridContainer"]
+custom_minimum_size = Vector2(475, 100)
 layout_mode = 2
+size_flags_horizontal = 3
 theme_override_styles/normal = SubResource("StyleBoxFlat_s383o")
 icon_alignment = 1
 
