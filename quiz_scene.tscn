@@ -1,23 +1,24 @@
-[gd_scene load_steps=6 format=3 uid="uid://cfa4b66watjoc"]
+[gd_scene load_steps=8 format=3 uid="uid://cfa4b66watjoc"]
 
 [ext_resource type="Script" path="res://quiz_scene.gd" id="1_4d3ne"]
+[ext_resource type="Texture2D" uid="uid://dnafgnpwn0l2c" path="res://New Piskel (1).png" id="2_x5pin"]
+[ext_resource type="Texture2D" uid="uid://cie0ol2mnh8rb" path="res://New Piskel-2.png.png" id="3_v4qms"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i23kr"]
 bg_color = Color(0, 0.301961, 0.827451, 1)
-border_width_left = 170
+border_width_left = 175
 border_width_top = 75
 border_width_right = 290
 border_color = Color(0, 0.301961, 0.827451, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3vmcq"]
 bg_color = Color(0.8, 0, 0.160784, 1)
-border_width_left = 425
+border_width_left = 475
 border_width_top = 36
 border_width_bottom = 30
 border_color = Color(0.8, 0, 0.160784, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cc4n7"]
-bg_color = Color(0.694118, 0.439216, 0.121569, 1)
 border_width_top = 70
 border_width_right = 5
 border_color = Color(0.69398, 0.440507, 0.121572, 1)
@@ -33,6 +34,10 @@ script = ExtResource("1_4d3ne")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 16.0
+offset_bottom = 8.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 100
@@ -67,20 +72,39 @@ columns = 2
 [node name="Button" type="Button" parent="MarginContainer/GridContainer"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_i23kr")
+icon_alignment = 1
 
 [node name="Button2" type="Button" parent="MarginContainer/GridContainer"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_3vmcq")
+icon_alignment = 1
 
 [node name="Button3" type="Button" parent="MarginContainer/GridContainer"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_cc4n7")
+icon_alignment = 1
 
 [node name="Button4" type="Button" parent="MarginContainer/GridContainer"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_s383o")
+icon_alignment = 1
+
+[node name="NewPiskel" type="Sprite2D" parent="."]
+z_index = -91
+position = Vector2(611, 346)
+scale = Vector2(5.59863, 5.70703)
+texture = ExtResource("2_x5pin")
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 1224.0
+offset_top = 26.0
+offset_right = 1276.0
+offset_bottom = 78.0
+icon = ExtResource("3_v4qms")
+expand_icon = true
 
 [connection signal="pressed" from="MarginContainer/GridContainer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="MarginContainer/GridContainer/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="MarginContainer/GridContainer/Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="MarginContainer/GridContainer/Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

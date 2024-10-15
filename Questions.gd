@@ -1,6 +1,9 @@
 extends Node
 var score = 0
-
+var high = 0
+var high2 = 0
+var high3 = 0
+var placeholder = 0
 var questions = {
 	1:["What is the country that ferrari came from", "france"," spain", "germany", "Italy", "Italy", null],
 	2:["What is the country that Lamborghini came from", "france"," spain", "germany", "Italy", "Italy", null],
@@ -10,7 +13,7 @@ var questions = {
 	6:["How many races did the Nissan GTR Nismo win", "35", "53", "41", "14", "41", null],
 	7:["Which car manufacturer has the most Endurance race wins", "Mclaren", "Ferrari", "Porsche", "Nissan", "Porsche", null],
 	8:["What is the fastest road legal car?", "Bugatti Chiron Pur Sport", "Koenigsegg Agera RS", "Mclaren P1", "Ferrari La Ferrari", "Koenigsegg Agera RS", null],
-	9:["What luxury British automobile brand was purchased by Tata motors in 2008?", "Jaguar", "Mini Cooper", "Rolls Royce", "Aston Martin", "Jaguar", null],
+	9:["What luxury British automobile brand was purchased by by Tata motors in 2008?", "Jaguar", "Mini Cooper", "Rolls Royce", "Aston Martin", "Jaguar", null],
 	10:["What is the name for the unit of measurement of power that is roughly equal to 746 watts?", "Kelowatts", "Megawatts", "Horsepower", "Pigpower", "Horsepower", null],
 	11:["When found on a vehicle’s speedometer, what do the letters MPH stand for?", "Motors Per Hoursepower", "Miles Per Hour", "Motors Post Horsepower", "Monkeys Per Hour", "Miles Per Hour", null],
 	12:["What does the acronym for BMW stand for?", "Bavarian Motor Works (Bayerische Motoren Werke)", "Barbarian Motor WORKS", "Bolocks Motor Works", "Baymans Motor Works (Bayerische Motoren Werke)", "Bavarian Motor Works (Bayerische Motoren Werke)", null],

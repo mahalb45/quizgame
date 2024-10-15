@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=3 uid="uid://dyqueqo8s4mv5"]
+
+[ext_resource type="Script" path="res://hishscores.gd" id="1_lfdx2"]
+[ext_resource type="Texture2D" uid="uid://b38uwvjxm6l3f" path="res://new piskelllll.png" id="2_si6s3"]
+[ext_resource type="Script" path="res://rich_text_label.gd" id="3_621rq"]
+[ext_resource type="Texture2D" uid="uid://cbsiu7ycttwf6" path="res://New Piskel (3).png" id="3_rtlmu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3gxy"]
+bg_color = Color(0, 0.584314, 1, 1)
+
+[node name="Hishscores" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lfdx2")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 374.0
+offset_top = 497.0
+offset_right = 942.0
+offset_bottom = 675.0
+theme_override_font_sizes/font_size = 120
+theme_override_styles/normal = SubResource("StyleBoxFlat_d3gxy")
+text = "back"
+icon = ExtResource("2_si6s3")
+expand_icon = true
+
+[node name="RichTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 127.0
+offset_right = 798.0
+offset_bottom = 282.0
+theme_override_font_sizes/font_size = 100
+text = " 0/10"
+script = ExtResource("3_621rq")
+
+[node name="NewPiskel(3)" type="Sprite2D" parent="."]
+z_index = -2
+position = Vector2(666, 301)
+scale = Vector2(11.8125, 11.8125)
+texture = ExtResource("3_rtlmu")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
