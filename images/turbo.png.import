@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cettoi3idmfb1"
-path="res://.godot/imported/Grandtour.jpeg-da4ef47ef1ed6d7180f821697d9f236a.ctex"
+uid="uid://cpsaqxmgh5xyb"
+path="res://.godot/imported/turbo.png-b43aab247165c5f1752dced7471011c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Grandtour.jpeg"
-dest_files=["res://.godot/imported/Grandtour.jpeg-da4ef47ef1ed6d7180f821697d9f236a.ctex"]
+source_file="res://images/turbo.png"
+dest_files=["res://.godot/imported/turbo.png-b43aab247165c5f1752dced7471011c5.ctex"]
 
 [params]
 

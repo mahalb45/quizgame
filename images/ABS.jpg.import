@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmrpdcwyv70df"
-path="res://.godot/imported/58902069-gun-pointed-at-you.jpg-1a63a0b3fb1485bb53f1a2030c72c9e5.ctex"
+uid="uid://k4uf4h5got57"
+path="res://.godot/imported/ABS.jpg-e9e891caf2c7295b88c18d903bef62c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://58902069-gun-pointed-at-you.jpg"
-dest_files=["res://.godot/imported/58902069-gun-pointed-at-you.jpg-1a63a0b3fb1485bb53f1a2030c72c9e5.ctex"]
+source_file="res://images/ABS.jpg"
+dest_files=["res://.godot/imported/ABS.jpg-e9e891caf2c7295b88c18d903bef62c4.ctex"]
 
 [params]
 

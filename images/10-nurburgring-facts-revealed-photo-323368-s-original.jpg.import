@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uye7g53vegio"
-path="res://.godot/imported/hamilton.jpg-a87c083f9b9cacd424bd57ea2bcfc0f2.ctex"
+uid="uid://bd22q20rewar4"
+path="res://.godot/imported/10-nurburgring-facts-revealed-photo-323368-s-original.jpg-2714c4ff66000ccfaa2fa8527b0ebdfc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://hamilton.jpg"
-dest_files=["res://.godot/imported/hamilton.jpg-a87c083f9b9cacd424bd57ea2bcfc0f2.ctex"]
+source_file="res://images/10-nurburgring-facts-revealed-photo-323368-s-original.jpg"
+dest_files=["res://.godot/imported/10-nurburgring-facts-revealed-photo-323368-s-original.jpg-2714c4ff66000ccfaa2fa8527b0ebdfc.ctex"]
 
 [params]
 
