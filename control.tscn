@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://c3nxx7trgbnpt"]
+[gd_scene load_steps=6 format=3 uid="uid://c3nxx7trgbnpt"]
 
 [ext_resource type="Script" path="res://Menu.gd" id="1_m74t8"]
+[ext_resource type="Texture2D" uid="uid://x5gtubyf0qyp" path="res://images/dark-background-abstract-background-network-3d-background-6016x3384-8324.png" id="2_t1f3k"]
 [ext_resource type="Texture2D" uid="uid://y4v8q4gqrtue" path="res://New Piskel (2).png" id="2_tpxe2"]
 [ext_resource type="Texture2D" uid="uid://cbsiu7ycttwf6" path="res://New Piskel (3).png" id="3_ep686"]
 
@@ -15,6 +16,11 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_m74t8")
+
+[node name="Dark-background-abstract-background-network-3d-background-6016x3384-8324" type="Sprite2D" parent="."]
+position = Vector2(653, 330)
+scale = Vector2(0.480136, 0.502807)
+texture = ExtResource("2_t1f3k")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0

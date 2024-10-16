@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://dyqueqo8s4mv5"]
+[gd_scene load_steps=9 format=3 uid="uid://dyqueqo8s4mv5"]
 
 [ext_resource type="Script" path="res://hishscores.gd" id="1_lfdx2"]
 [ext_resource type="Texture2D" uid="uid://b38uwvjxm6l3f" path="res://new piskelllll.png" id="2_si6s3"]
+[ext_resource type="Texture2D" uid="uid://x5gtubyf0qyp" path="res://images/dark-background-abstract-background-network-3d-background-6016x3384-8324.png" id="2_vspvl"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="3_621rq"]
 [ext_resource type="Texture2D" uid="uid://cbsiu7ycttwf6" path="res://New Piskel (3).png" id="3_rtlmu"]
 [ext_resource type="Script" path="res://rich_text_label_2.gd" id="4_2ibbp"]
@@ -18,6 +19,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_lfdx2")
+
+[node name="Dark-background-abstract-background-network-3d-background-6016x3384-8324" type="Sprite2D" parent="."]
+z_index = -7
+position = Vector2(662, 352)
+scale = Vector2(0.356715, 0.400414)
+texture = ExtResource("2_vspvl")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
