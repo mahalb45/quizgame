@@ -38,13 +38,13 @@ var questions = {
 	31:["Which car manufachurer is known for the nismo badge?", "Mansory", "Rolls Royce", "Nissan", "Ford", "Nissan", preload("res://images/nissan_nismoz_008_hr.jpg")],
 	32:["What is Mansory to the car industry?", " luxury car modifier", "Luxury car reseller", "wheel and tire maker", "Car recoloring","luxury car modifier", preload("res://images/a00182b11ce663e047f6ff9eab110076.jpg")],
 	33:["What is the most popular motorsport?", "Moto GP", "WEC Endurane Race", "Formula 1", "Nascar", "Formula 1", preload("res://images/f1 tyre.jpg")],
-	34:["Do you like electric cars?", "Never in a million years", "yes", "Maybe", "No", "Never in a million years", preload("res://58902069-gun-pointed-at-you.jpg")],
-	35:["What is Honda's Supercar?", "Honda rcs 34", "Honda GT", "Honda NSX", "Honda 3", "Honda NSX", preload("res://nsx_type_s_01.jpg")],
-	36:["what is the most dengerous race track in the world?", "Nurburgring", "Le Mans", "Fiji Speedway", "Dubai Autodrome", "Nurburgring", preload("res://10-nurburgring-facts-revealed-photo-323368-s-original.jpg")],
-	37:["How much did the Nurburgring cost to build?", "$30 Million", "$14.1 Million", "$40 Million", "$100 Million", "$40 Million", preload("res://Manthey Grello Porsche 911 GT3 R (992) Leading Schnitzelalm Mercedes-AMG GT3 on the Nürburgrin...jpg")],
+	34:["Do you like electric cars?", "Never in a million years", "yes", "Maybe", "No", "Never in a million years", preload("res://images/58902069-gun-pointed-at-you.jpg")],
+	35:["What is Honda's Supercar?", "Honda rcs 34", "Honda GT", "Honda NSX", "Honda 3", "Honda NSX", preload("res://images/nsx_type_s_01.jpg")],
+	36:["what is the most dengerous race track in the world?", "Nurburgring", "Le Mans", "Fiji Speedway", "Dubai Autodrome", "Nurburgring", preload("res://images/10-nurburgring-facts-revealed-photo-323368-s-original.jpg")],
+	37:["How much did the Nurburgring cost to build?", "$30 Million", "$14.1 Million", "$40 Million", "$100 Million", "$40 Million", preload("res://images/Manthey Grello Porsche 911 GT3 R (992) Leading Schnitzelalm Mercedes-AMG GT3 on the Nürburgrin...jpg")],
 	38:["What does DRS stand for?", "Doodge Rambo System", "Drag Reduction System", "Drag Reposetry Sysytem", "Dope Rotational Speed", "Drag Reduction System", preload("res://images/51F47cKdSAL._AC_UY1000_.jpg")],
-	39:["Which driver has won the most F1 championships?", "Max Verstrapen", "Senna", "Lewis Hamilton", "Charles Leclerc", "Lewis Hamilton", preload("res://hamilton.jpg")],
-	40:["Who is the greatest trio in the automotive industry?", "Jeremy Clarkson, Richard Hammond, James May", "Henry Ford, Enzo Ferrari, Ferruccio Lamborghini", "lewis Hamilton, Max verstrapen, Charles Leclerc", "Lamborghini, Ferrari, Mclaren", "Jeremy Clarkson, Richard Hammond, James May", preload("res://Grandtour.jpeg")],
+	39:["Which driver has won the most F1 championships?", "Max Verstrapen", "Senna", "Lewis Hamilton", "Charles Leclerc", "Lewis Hamilton", preload("res://images/hamilton.jpg")],
+	40:["Who is the greatest trio in the automotive industry?", "Jeremy Clarkson, Richard Hammond, James May", "Henry Ford, Enzo Ferrari, Ferruccio Lamborghini", "lewis Hamilton, Max verstrapen, Charles Leclerc", "Lamborghini, Ferrari, Mclaren", "Jeremy Clarkson, Richard Hammond, James May",preload("res://images/Grandtour.jpeg")],
 	
 }
 
